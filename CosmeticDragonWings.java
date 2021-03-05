@@ -7,10 +7,7 @@ import org.lwjgl.opengl.GL11;
 
 import com.sun.jna.platform.unix.X11.Font;
 
-import ForestClient.Booleans;
-import ForestClient.ColorUtil;
 import ForestClient.Cosmetics.CosmeticBase;
-import ForestClient.Cosmetics.CosmeticController;
 import ForestClient.Cosmetics.CosmeticModelBase;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.AbstractClientPlayer;
