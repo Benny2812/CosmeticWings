@@ -79,7 +79,7 @@ public class CosmeticDragonWings extends CosmeticBase {
 	@Override
 	public void render(AbstractClientPlayer player, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float HeadYaw, float headPitch, float scale) {
 	
-			if(player.getName().equals(Minecraft.getMinecraft().thePlayer.getName()) && Booleans.CosmeticDragonWings) {
+			if(player.getName().equals(Minecraft.getMinecraft().thePlayer.getName())) {
 				
 	
 			GlStateManager.pushMatrix();
