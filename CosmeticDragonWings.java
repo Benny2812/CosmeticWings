@@ -168,8 +168,8 @@ GlStateManager.pushMatrix();
                 
                 }
                 
-                CosmeticDragonWings.wing.isHidden = true;
-                CosmeticDragonWings.wingTip.isHidden = true;
+                CosmeticDragonWings.wing.isHidden = false;
+                CosmeticDragonWings.wingTip.isHidden = false;
                 
                 if (i == 0) {
                 	GlStateManager.scale(-1.0F, 1.0F, 1.0F);
